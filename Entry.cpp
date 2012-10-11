@@ -1,13 +1,10 @@
-#include <iostream>
-#include <stdio.h>
-using namespace std;
+#include "stdafx.h"
 
-/* This is OpenGL OpenSource Project Creating the Game */
-int main()
+int main ()
 {
-	cout << "Hellow Creating OpenGLES Game" << endl;
-	cout << "Test Version" << endl;
-	printf("Printf Test");
+	cout << "OpenGL Setting Started" << endl;
+
+	glLoadIdentity();
 
 	return 0;
 }
